@@ -1,0 +1,11 @@
+.brnd{
+    width: 100px;
+    border: dotted 2px black;
+    padding: 20px;
+    border-radius:70%;
+}
+.img1{
+    width: 400px;
+}
+
+

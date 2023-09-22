@@ -1,0 +1,150 @@
+.content1 {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.products {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.product1 {
+    border: solid 2px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.card-body {
+    gap: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cart {
+    background: transparent;
+}
+
+.logo1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.logo1 img {
+    width: 210px;
+}
+
+.logo2 {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+}
+
+.logo2 img {
+    width: 210px;
+}
+
+.brnd {
+    border: dotted 2px black;
+    padding: 10px;
+}
+
+.select {
+    background-color: rgb(222, 223, 223);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.select1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.select1 button {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+
+.select1 button:hover {
+    background-color: rgb(209, 202, 192);
+}
+
+svg {
+    margin-left: 210px;
+    margin-top: -510px;
+}
+
+.content2 {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.content2 img {
+    width: 110px;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.item {
+    background-color: rgba(128, 128, 128, 0.186);
+}
+
+.item img {
+    width: 400px;
+
+}
+.ex1{
+    width: 150px;
+    height: 40px;
+    border: solid 1px black;
+    margin: 10px;
+}
+h4{
+    margin: 10px;
+}
+.content3:hover{
+ transform: scale(1.2);
+ transition-duration: 0.3s;
+}
+.brnd:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+.acce1:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+
+}
+.ex1:hover{
+    background-color: rgb(209, 202, 192); 
+
+}
+.cart:hover{
+    background-color: rgb(209, 202, 192); 
+}

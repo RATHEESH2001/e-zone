@@ -1,0 +1,43 @@
+.form2 {
+    text-align: center;
+    background-color: black;
+   margin-bottom: -63px;
+    margin-left: -2px;
+    margin-right: -3px;
+    color: beige;
+    border: solid 3px beige;
+    
+}
+.form-group{
+   
+   
+    text-align: center;
+}
+
+.sign-up-form {
+    background: transparent;
+    border: solid 3px bisque;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    
+}
+
+input {
+    border-radius: 15px;
+    
+}
+
+button {
+    border-radius: 15px;
+    border: solid 3px beige;
+
+}
+
+input:hover {
+    background-color: beige;
+}

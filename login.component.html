@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div class="form1">
+
+        <form id="login-form" onsubmit="return false;">
+            <strong>
+                <h1>Login</h1>
+            </strong><br>
+            <label for="username">Username:</label>
+
+            <input type="text" id="username" required><br><br>
+            <label for="password">Password:</label>
+
+            <input type="password" id="password" required><br><br>
+            <button onclick="login()">Login</button>
+        </form>
+    </div>
+    <p id="error-message" class="error-message"></p>
+</div>
+<script>
+function login() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const errorMessage = document.getElementById('error-message');
+
+
+        if (username === 'user123' && password === 'password123') {
+
+            alert('Login successful! Redirecting...');
+
+        } else {
+
+            errorMessage.textContent = 'Invalid username or password.';
+        }
+    }
+    </script>
